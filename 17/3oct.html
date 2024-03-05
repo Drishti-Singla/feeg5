@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+         border: 10px,green;
+            padding:20px;
+            margin-top: 0px;
+            margin-bottom: 80px;
+            border-radius: 100px;
+            width: 100px;
+            height: 100px;
+            background-color:aqua;
+            text-align:center ;
+            
+
+            
+            
+        }
+        @keyframes example2{
+            0%{background-color: yellow; margin-top: 0px; }
+            20%{background-color: rgb(21, 202, 81);margin-top: 0px;margin-left: 300px;}
+            40%{background-color: aqua;margin-top: 300px;margin-left: 300px;}
+            60%{background-color: rgb(252, 155, 11);margin-top: 300px;margin-left: 0px;}
+            100%{background-color: blueviolet;margin-top:0;}
+            
+        }
+        #box:hover{
+            animation-name: example2;
+            animation-duration: 10s;
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="box">ball</div>
+</body>
+</html>

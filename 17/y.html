@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Login Page </title>
+<style> 
+Body {
+  background-color: seagreen;
+  background-repeat: no-repeat;
+  background-size: 2000px 1700px;
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: skyblue;
+}
+button { 
+       background-color: darkblue; 
+        width: 100%;
+        color: orange; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+         } 
+ form { 
+        border: 3px solid white; 
+    } 
+ input[type=text], input[type=password] { 
+        width: 100%; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid orange; 
+        box-sizing: border-box; 
+    }
+ button:hover { 
+        opacity: 0.7; 
+    } 
+  .cancelbtn { 
+        width: auto; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+    } 
+      
+   
+ .container { 
+        padding: 25px; 
+        background-color: lightblue;
+    } 
+    .center{
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  
+    }
+</style> 
+</head>  
+<body>  
+    <center> <h1>  Login Page </h1> </center> 
+    <form>
+        <div class="container"> 
+            <label>Username : </label> 
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>Password : </label> 
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="submit">Login</button> 
+            <input type="checkbox" checked="checked"> Already Registered <br>
+            <button type="button" class="cancelbtn"> Cancel</button> 
+            Forgot <a href="#"> password? </a> 
+        </div> 
+    </form>
+    <img src="https://media.tenor.com/6ZkJEn80W7kAAAAM/green-tick.gif" height="200" width="350" alt="B10x Logo" class="center">
+</body>   
+</html>
